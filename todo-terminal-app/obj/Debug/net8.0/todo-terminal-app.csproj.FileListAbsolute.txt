@@ -1,0 +1,17 @@
+C:\_repos\todo-terminal-app\todo-terminal-app\bin\Debug\net8.0\todo-terminal-app.exe
+C:\_repos\todo-terminal-app\todo-terminal-app\bin\Debug\net8.0\todo-terminal-app.deps.json
+C:\_repos\todo-terminal-app\todo-terminal-app\bin\Debug\net8.0\todo-terminal-app.runtimeconfig.json
+C:\_repos\todo-terminal-app\todo-terminal-app\bin\Debug\net8.0\todo-terminal-app.dll
+C:\_repos\todo-terminal-app\todo-terminal-app\bin\Debug\net8.0\todo-terminal-app.pdb
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.AssemblyInfoInputs.cache
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.AssemblyInfo.cs
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.csproj.CoreCompileInputs.cache
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.dll
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\refint\todo-terminal-app.dll
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.pdb
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.genruntimeconfig.cache
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\ref\todo-terminal-app.dll
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.csproj.AssemblyReference.cache
+C:\_repos\todo-terminal-app\todo-terminal-app\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-ter.486AA14F.Up2Date
