@@ -11,14 +11,25 @@ class Program
 {
     public static int menuChoice;
 
+    public static string jsonFilePath = "tasks.json";
+
     static void Main(string[] args)
     {
 
         bool isChoiceInvalid = true;
+
+
+        List<Task> tasksList = new List<Task>();
+        if (File.Exists(jsonFilePath))
+        {
+            string jsonData = File.ReadAllText(jsonFilePath);
+            tasksList = JsonConvert.DeserializeObject<List<Task>>(jsonData) ?? new List<Task>();
+        }
         
 
         while(isChoiceInvalid){
             menuDisplay();
+
             try
             {
                 menuChoice = int.Parse(Console.ReadLine());
@@ -48,21 +59,38 @@ class Program
         
         switch(menuChoice){
             case 1:
+                // TODO: Make this function work
                 Console.WriteLine("under construction sir..");
                 break;
             case 2:
+                // TODO: Needs improvement
+
+                DateTime todaysDate = DateTime.Now.Date;
+
+                System.Console.Write("Enter task name (short): ");
+                string taskNameUser = Console.ReadLine();
+
+                System.Console.Write("Enter task description: ");
+                string taskDescUser = Console.ReadLine();
+
+                Console.Write("When you want to do the task? (dd/mm/yyyy): ");
+                string toDoDateUserInput = Console.ReadLine();
+
                 Task task = new Task{
                     taskId = 1,
-                    dateCreated = "NaN",
-                    toDoDate = "NaN",
-                    name = "NaN",
-                    description = "NaN"
+                    dateCreated = todaysDate.ToString(),
+                    toDoDate = toDoDateUserInput,
+                    name = taskNameUser,
+                    description = taskDescUser
 
                 };
 
-                string jsonString = JsonConvert.SerializeObject(task, Formatting.Indented);
+                tasksList.Add(task);
 
-                File.WriteAllText("tasks.json", jsonString);
+                string updatedJsonData = JsonConvert.SerializeObject(tasksList, Formatting.Indented);
+                File.WriteAllText(jsonFilePath, updatedJsonData);
+
+                System.Console.WriteLine($"New task created!");
                 break;
         }
         

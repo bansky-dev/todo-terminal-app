@@ -15,3 +15,4 @@ C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\ref\todo-terminal
 C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.csproj.AssemblyReference.cache
 C:\_repos\todo-terminal-app\todo-terminal-app\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-ter.486AA14F.Up2Date
+C:\_repos\todo-terminal-app\todo-terminal-app\obj\Debug\net8.0\todo-terminal-app.sourcelink.json
